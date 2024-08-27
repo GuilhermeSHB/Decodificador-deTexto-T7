@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>CriptOne</title>
+  </head>
+  <body>
+    <main class="contentArea">
+      <section class="inputText">
+        <figure class="logoAlura">
+          <img src="./images/logo_Alura.svg" alt="Logo da alura"/>
+        </figure>
+        <textarea id="textToEncrypt" placeholder="Digite seu texto"></textarea>
+        <div class="alignButtons">
+          <button id="encryptButton" onclick="criptografar()">Criptografar</button>
+          <button id="decryptButton" onclick="descriptografar()">Descriptografar</button>
+        </div>
+      </section>
+
+      <section id="outputText">
+        <textarea id="encryptedText" readonly></textarea>
+        <figure>
+          <img src="./images/boneco_sentado.svg" alt="imagem de um personagem sentado"/>
+        </figure>
+        <button id="copyButton" onclick="copy()">Copiar</button>
+      </section>
+    </main>
+
+    <footer class="footerInfos">
+      <p>Desenvolvido por Guilherme Soares</p>
+      <figure>
+        <a href="https://github.com/GuilhermeSHB" target="_blank"><img src="./images/github_icon.svg" alt="Icone do Github" /></a>
+      </figure>
+      <figure>
+        <a href="https://www.linkedin.com/in/guilhermesoareshb/" target="_blank"><img src="/images/linkedin_icon.svg" alt="Icone do Linkedin" /></a>
+      </figure>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
+<html></html>

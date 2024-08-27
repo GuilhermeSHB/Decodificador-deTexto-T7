@@ -1,0 +1,141 @@
+* {
+   margin: 0;
+   padding: 0;
+   
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap');
+
+body {
+    background-color: #F3F5FC;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.contentArea {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+
+}
+
+.inputText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    height: 90%;
+  
+}
+
+#outputText{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white ;
+    border-radius: 32px;
+    height: 90%;
+    gap: 30px;
+}
+
+.footerInfos{
+    display: flex;
+    justify-content: center;
+    background-color: #F3F5FC;
+    align-items: center;
+    gap: 10px;
+}
+
+#textToEncrypt {
+    width:670px;
+    height: 520px;
+    resize: none;
+    background-color: #F3F5FC;
+    border: none;
+    font-size: 32px;
+    color: #0A3871;
+  
+  }
+
+.alignButtons{
+    display: flex;
+    gap: 24px;
+
+  }
+
+#encryptButton{
+    color: white;
+    background-color: #0A3871;
+    border: none;
+    border-radius: 24px;
+    width: 320px;
+    height: 65px;
+
+}
+
+#decryptButton{
+    color: #0A3871;
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    width: 320px;
+    height: 65px;
+}
+
+#copyButton{
+    color: white;
+    background-color: #0A3871;
+    border: none;
+    border-radius: 24px;
+    width: 320px;
+    height: 65px;
+
+}
+
+#encryptedText{
+    width: 280px;
+    height: 300px;
+    border: none;
+    resize: none;
+    font-size: 24px;
+}
+
+.logoAlura{
+    margin-right: 900px;
+    margin-bottom: 100px;
+}
+
+.footerInfos img{
+    width: 30px;    
+}
+
+strong {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    gap: 16px;
+    text-align: center;
+    vertical-align: sub;
+}
+
+textarea:focus, input:focus,textarea::placeholder {
+    color: #0A3871;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+button, button:hover{
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
